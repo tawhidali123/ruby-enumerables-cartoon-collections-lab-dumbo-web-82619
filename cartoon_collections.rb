@@ -32,7 +32,7 @@ def find_the_cheese(strings)
   holder = []
   strings.map{
     |i|
-    if i.include("cheddar", "gouda", "camembert")
+    if i.include?("cheddar", "gouda", "camembert")
       holder.push(i)
     end
   }
