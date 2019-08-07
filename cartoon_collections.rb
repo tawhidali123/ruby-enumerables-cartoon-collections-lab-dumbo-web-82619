@@ -31,7 +31,7 @@ end
 def find_the_cheese(strings)
   strings.map{
     |i|
-    
+    i.include
   }
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
