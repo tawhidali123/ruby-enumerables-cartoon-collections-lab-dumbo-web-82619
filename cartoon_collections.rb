@@ -15,7 +15,7 @@ end
 def long_planeteer_calls(words)
   word.map{
     |i|
-    if 
+    if i.length
   }
 end
 
