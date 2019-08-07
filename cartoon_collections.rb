@@ -41,7 +41,8 @@ def find_the_cheese(strings)
     end
   }
   # search = strings.include?("cheddar", "gouda", "camembert")
-  return holder
+  if holder.length > 0
+    return 
 end
 
 
