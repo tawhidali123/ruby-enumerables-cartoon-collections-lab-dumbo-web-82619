@@ -13,14 +13,16 @@ def summon_captain_planet(planteer_calls)
 end
 
 def long_planeteer_calls(words)
-  four = ""
+  four = []
   words.map{
     |i|
     if i.length >= 4
-      four = i
+      four.push(i)
     end
   }
-  
+  if four.length >= 1
+    return true
+  else return false
   
 end
 
