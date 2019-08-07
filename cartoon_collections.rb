@@ -15,7 +15,10 @@ end
 def long_planeteer_calls(words)
   word.map{
     |i|
-    if i.length
+    if i.length >= 4
+      return true
+    else return false
+  end
   }
 end
 
