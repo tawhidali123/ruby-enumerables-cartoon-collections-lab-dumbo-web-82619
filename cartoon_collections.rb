@@ -41,8 +41,8 @@ def find_the_cheese(strings)
     end
   }
   
-  if holder.length > 0
-    return holder.join(" ")
+  if holder[0]
+    return holder.join("")
   else return nil
   end
 end
