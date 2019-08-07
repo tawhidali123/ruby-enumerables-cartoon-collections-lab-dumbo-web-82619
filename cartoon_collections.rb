@@ -40,9 +40,11 @@ def find_the_cheese(strings)
       holder.push(i)
     end
   }
-  # search = strings.include?("cheddar", "gouda", "camembert")
+  
   if holder.length > 0
-    return 
+    return holder.join("")
+  else return nil
+  end
 end
 
 
