@@ -16,7 +16,7 @@ def long_planeteer_calls(words)
   four = []
   words.map{
     |i|
-    if i.length >= 4
+    if i.length > 4
       four.push(i)
     end
   }
