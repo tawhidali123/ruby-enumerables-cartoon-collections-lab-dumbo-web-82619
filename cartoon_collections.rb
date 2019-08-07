@@ -29,11 +29,15 @@ def long_planeteer_calls(words)
 end
 
 def find_the_cheese(strings)
+  holder = []
   strings.map{
     |i|
     if i.include("cheddar", "gouda", "camembert")
+      holder.push(i)
+    end
   }
   # search = strings.include?("cheddar", "gouda", "camembert")
+  return holder
 end
 
 
