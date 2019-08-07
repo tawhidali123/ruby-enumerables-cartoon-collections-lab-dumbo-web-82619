@@ -14,20 +14,29 @@ end
 
 def long_planeteer_calls(words)
   four = []
+  
   words.map{
     |i|
     if i.length > 4
       four.push(i)
     end
   }
+  
   if four.length >= 1
     return true
   else return false
   end
-  
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(strings)
+  strings.map{
+    |i|
+    
+  }
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
+
+
+
+
